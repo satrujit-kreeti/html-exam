@@ -93,6 +93,13 @@ nav>ul {
 nav>ul>li {
     color: white;
     font-weight: 600;
+
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: #f4ed00;
+    }
 }
 
 dialog {
@@ -193,6 +200,12 @@ a {
 
 .button--yellow {
     background-color: #ffb400;
+
+    &:hover,
+    &:focus {
+        background-color: white;
+
+    }
 }
 
 
